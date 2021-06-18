@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
+  <!-- Fontawesom-->
 <script src="https://kit.fontawesome.com/1ad2e98449.js" crossorigin="anonymous"></script>
+<!-- Bootstrap5 files-->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<!-- My styles-->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>CV-EXEMPLE</title>
 </head>
 <body>
+   <!-- ========================= HEADER ========================= -->
     <header>
-     
-                    <nav class="navbar navbar-expand-lg bg-dark">
+                    <!--navbar-->
+                    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
                         <div class="container-fluid">
                           <a class="navbar-brand white p-4 text-white fs-2 fw-bold">PORTFOLIO</a>
-                          <button class="navbar-toggler navbar-light text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon text-white"></span>
+                          <button class="navbar-toggler text-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                           </button>
-                          <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNav">
-                            <ul class="navbar-nav">
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav float-left">
                               <li class="nav-item m-4 p-1 fs-4 text-uppercase">
                                 <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
                               </li>
@@ -36,36 +41,41 @@
                             </ul>
                           </div>
                         </div>
-                    </div>
-                        </div>
                       </nav>
+                      <!-- nav // -->
     </header>
-</div>
-</div>
-</div>
+    <!-- ========================= HEADER END// ========================= -->
 
+     <!-- ========================= MAIN START ========================= -->
     <main>
-        <section id="about" style="height: 100vh;">
-            <div class="container mx-auto shadow p-3 mb-5 bg-body rounded" style="width: 70%;">
+      <!-- ========================= SECTION ABOUT ========================= -->
+        <section id="about" class="container">
+          <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-0 col-sm-0"></div>
+        </div>
+            <div class="container">
             <div class="row">
-              <div class="col-md-2 col-xl-2 col-lg-2"></div>
-                <div class="col-sm-12 col-md-8 col-xl-8 col-lg-8">
-                    <img src="assets/images/water-839590_960_720.webp"class="card-img-top img-fluid image-profile" alt="">
+              <div class="col-md-12 col-sm-12">
+                  <div class="card mx-auto shadow bg-body rounded" style="width: 70%;">
+                    <img src="assets/images/water-839590_960_720.webp" class="card-img-top img-fluid image-profile" alt="">
                     <img src="assets/images/P1060587.JPG" class="img-fluid card-img-bottom  mx-auto d-block h25" alt="">
-                    <div class="card-body ">
+                    <div class="card-body py-5">
                       <h5 class="card-title text-center p-1 m-1 fw-bold">Olga LUNGU</h5>
                       <p class="card-text text-center fw-bold"><cite> Anything is possible when you belive in yourself.</cite></p>
                     </div>
-                  </div>
-                  <div class="col-md-2 col-xl-2 col-lg-2"></div>
+                  </div>  
                 </div>
             </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-0 col-sm-0"></div>
+            </div>
         </section>
-       
+       <!-- ========================= SECTION ABOUT END// ========================= -->
+        <!-- ========================= SECTION SKILLS ========================= -->
         <section id="skills" class="img-fluid">
-            <div class="container" style="height: 100vh;">
+            <div class="container">
                 <div class="row">
-                 
                     <div class="col-md-10">
             <h2 class="text-center text-white fw-bold mt-5 text-uppercase width-">Software Skills</h2>
 
@@ -90,12 +100,11 @@
             </div>
         </div>
     </div>
-</div>
-</div>
         </section>
-    
-        <section id="experience" class="img-fluid">
-            <div class="container" style="width:100%">
+        <!-- ========================= SECTION SKILLS END// ========================= -->
+     <!-- ========================= SECTION EXPERIENCE ========================= -->
+        <section id="experience">
+            <div class="container">
             <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <h2 class="container">Experience</h2>
@@ -145,30 +154,32 @@
                   </tr>
                 </tbody>
               </table>
-           
             </div>
         </div>
-    </div>
-</div>
+      </div>
         </section>
+        <!-- ========================= SECTION EXPERIENCE END// ========================= -->
+         <!-- ========================= SECTION CONTACTS ========================= -->
         <section id="contacts">
-            <div class="container" style="height: 70vh;">
-                <div class="row row justify-content-md-center">  
+                <div class="row">  
         <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12" >
-            <div class="card contact-card my-5 mx-auto rounded border-white bg-transparent" style="width: 18rem; height: 55vh;">
+            <div class="card contact-card my-5 mx-auto rounded border-white bg-transparent" style="width: 18rem; height: auto;">
                 <div class="card-body">
                     <h1 class="card-text fw-bold">Address</h1>
-                   <a href="https://goo.gl/maps/3HpadPVFMyMDC9LS9"class="text-dark text-decoration-none">
+                   <a href="https://goo.gl/maps/3HpadPVFMyMDC9LS9" class="text-dark text-decoration-none">
                         MD- 2075, Moldova,<br/>
-					Chisinau city<br/>
-			Igor Vieru street,1 fl.128</a>
+				              	Chisinau city<br/>
+			               Igor Vieru street,1 fl.128</a>
+                     <h4 class="card-text">&nbsp; &nbsp;</h4>
+                    <p class="card-text">&nbsp; &nbsp;</p>
+                   
                 </div>
               </div>
-              </div>
+            </div>
               <div class="col-xl-2 col-lg-2">
               </div> 
               <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12" >
-                <div class="card contact-card my-5 mx-auto rounded border-white bg-transparent" style="width: 18rem;height: 55vh;">
+                <div class="card contact-card my-5 mx-auto rounded border-white bg-transparent" style="width: 18rem; height: auto;">
                     <div class="card-body">
                         <h1 class="card-text fw-bold">Contact</h1>
                         <h4 class="card-text">Phone</h4>
@@ -179,12 +190,13 @@
                   </div>
             </div>
           </div>
-        </div>
         </section>
+        <!-- ========================= SECTION CONTACTS END// ========================= -->
     </main>
+    <!-- ========================= MAIN END// ========================= -->
+     <!-- ========================= SECTION FOOTER ========================= -->
     <footer>
-        <div class="footer bg-dark text-white text-center rounded"> 
-            <div class="container" style="width: 100%;">
+      <div class="bg-dark text-white text-center" style="width: 100%;">
                 <div class="row">
                     <div class="col">
                <ul class="social-icons d-flex justify-content-center flex-wrap p-3 list-unstyled">
@@ -194,13 +206,13 @@
                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                </ul>
            </div>
-        </di>
+        </div>
         <div class="mb-2">
             Copyright &copy; 2021, Developmentaid
         </div>
-    </div>
-    </div>
+      </div>
     </footer>
+    <!-- ========================= FOOTER END// ========================= -->
     <script src="assets/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>

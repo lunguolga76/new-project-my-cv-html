@@ -2,13 +2,9 @@
 
 body{
     font-family:'Poppins', sans-serif;
-
 }
-
-
 nav li a, .navbar-brand{
-    transition: 0.2s;
-    
+    transition: 0.2s;  
 }
 
  nav li a:hover, .navbar-brand:hover{
@@ -19,21 +15,18 @@ nav li a, .navbar-brand{
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
 }
 
-
 #about{
     width: 100%;
     height: 100vh;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 .image-profile{
     background-size: cover;
     width: 100%;
     height: 300px;
-
 }
 .card-img-bottom{
     z-index: 1;
@@ -50,12 +43,11 @@ nav li a, .navbar-brand{
 }
 .card-img-bottom:hover{
     transform: scale(1.1);
-
 }
 
 #skills{
-   background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../images/monitor-1307227_1280.jpg");
-  
+   background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../images/monitor-1307227_1280.jpg"); 
+   background-image: cover;
 }
 
 .skill-level:hover{
@@ -66,15 +58,10 @@ nav li a, .navbar-brand{
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
 }
 #experience{
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 50px ;
-    background:url(../images/bokeh-2990426_1920.jpg);
+
+    background:url(../images/bokeh-2990426_1920.jpg) no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;   
 }
 
 #experience h2{
@@ -99,19 +86,13 @@ nav li a, .navbar-brand{
                  -10px 10px 30px #000,
                  -20px 15px 40px #000,
                  -25px 20px 50px #000;
-
 }
-
 
 #contacts{
-   
-    background: url(../images/dandelion-6266230_1920.jpg);
-    background-size: cover;
-    
-    
+    background: url(../images/dandelion-6266230_1920.jpg) no-repeat center center;
+    background-size: cover;    
 }
 .contact-card:hover{
-  
     border-radius: 5%;
     padding: 3px;
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
@@ -150,7 +131,6 @@ nav li a, .navbar-brand{
     font-size: 24px;
     color: #262626;
     transition: 0.5s;
-  
   }
   .social-icons li:nth-child(1) a:hover .fa{
     color:#3b5998;
