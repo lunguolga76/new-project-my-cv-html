@@ -10,7 +10,6 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-
 }
 
 header{
@@ -20,7 +19,6 @@ header{
     padding: 30px 10%;
     background: black;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 }
 #cv{
     color: white;
@@ -37,9 +35,7 @@ nav li{
     padding: 15px 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 18px;
-    
-   
+    font-size: 18px;  
 }
 
 nav li a{
@@ -81,7 +77,6 @@ section #about{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
-  
     
 }
 
@@ -112,7 +107,7 @@ section #about{
     font-size: 16px;
     text-align: center;
     padding: 0 20px 5px 20px;
-    color: black3;
+    color: black;
 }
 #skills{
    width: 100%;
